@@ -6,6 +6,7 @@ import grill from "../assets/img/grill.jfif";
 import zohan from "../assets/img/zohan.jfif";
 import naveen from "../assets/img/e-comm.jfif";
 import portal from "../assets/img/portal.jfif";
+import logistics from "../assets/img/logistics.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,9 +14,14 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Attendence Portal",
+      title: "ClockInSight",
       description: "Frontend Development",
       imgUrl: portal,
+    },
+    {
+      title: "LogiTrack",
+      description: "Frontend Development",
+      imgUrl: logistics,
     },
   ];
   const projects2 = [
