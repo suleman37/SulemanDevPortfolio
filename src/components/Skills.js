@@ -52,6 +52,9 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Tailwind CSS</h5>
+                            </div> <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Material UI</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
