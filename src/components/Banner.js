@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/pics.jpeg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -69,26 +69,29 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      // data-rotate='["Web Developer"]'
+                      data-rotate='["Web Developer"]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    As a front-end developer, I specialize in creating dynamic
-                    and user-friendly web applications using technologies such
-                    as WordPress , JavaScript, React.js, and HTML/CSS. With over
-                    a year of experience in web development, I have a strong
-                    understanding of the front-end development process and best
-                    practices. I am passionate about crafting high-quality user
-                    experiences and paying attention to detail in my work. My
-                    proactive approach and dedication to continuous learning
-                    enable me to stay current with industry trends and deliver
-                    exceptional results in every project I undertake.
+                    As a Front-End Developer with over 2 years of experience, I
+                    specialize in building dynamic, user-friendly web
+                    applications using HTML5 ,CSS3 ,JavaScript, EcmaScript6
+                    ,Bootstrap 5 , React-Bootstrap,Tailwind CSS, Material UI,
+                    Next.jsand React.js . I focus on creating high-quality user
+                    experiences and staying ahead of industry trends. My
+                    proactive approach and attention to detail ensure
+                    exceptional results in every project.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a
+                    href="https://www.upwork.com/freelancers/~01ccb38040d11360a6?mp_source=share"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <button>
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
@@ -101,7 +104,15 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={headerImg} alt="Header Img" />
+                  <img
+                    src={headerImg}
+                    alt="Header Img"
+                    style={{
+                      borderRadius: "50%",
+                      border: "10px solid #662c64",
+                      width: "430px"
+                    }}
+                  />
                 </div>
               )}
             </TrackVisibility>

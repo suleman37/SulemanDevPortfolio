@@ -26,25 +26,25 @@ export const Projects = () => {
   ];
   const projects2 = [
     {
-      title: "Resturent Website",
+      title: "GrilliHouse Provisions",
       description: "Frontend Development",
       imgUrl: grill,
     },
     {
-      title: "Digital Marketing Website",
+      title: "SEO Impact Agency",
       description: "Frontend Development",
       imgUrl: zohan,
     }
     ,
     {
-      title: "E-Commerce Website",
+      title: "Naveen Trends",
       description: "Frontend Development",
       imgUrl: naveen,
     }
   ];
   const projects3 = [
     {
-      title: "Bussiness Website",
+      title: "AQ Gimel",
       description: "Frontend Development",
       imgUrl: projImg1,
     }
@@ -63,13 +63,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Software Frontend</Nav.Link>
+                      <Nav.Link eventKey="first">Software Development</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Frontend Website</Nav.Link>
+                      <Nav.Link eventKey="second">Website Development</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Business Websites</Nav.Link>
+                      <Nav.Link eventKey="third">Enterprise Web Solutions</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
