@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/pics.jpeg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import "animate.css";
 import TrackVisibility from "react-on-screen";
+import "animate.css";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -101,16 +101,18 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
+                    isVisible ? "hero-img animate__animated animate__zoomIn" : ""
                   }
                 >
                   <img
+                  className=""
                     src={headerImg}
                     alt="Header Img"
                     style={{
                       borderRadius: "50%",
                       border: "10px solid #662c64",
-                      width: "430px"
+                      width: "430px",
+                      filter:"brightness(50%) contrast(100%)"
                     }}
                   />
                 </div>
