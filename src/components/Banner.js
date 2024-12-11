@@ -105,14 +105,14 @@ export const Banner = () => {
                   }
                 >
                   <img
-                  className=""
+                    className="img-fluid"
                     src={headerImg}
                     alt="Header Img"
                     style={{
                       borderRadius: "50%",
                       border: "10px solid #662c64",
-                      width: "430px",
-                      filter:"brightness(50%) contrast(100%)"
+                      filter: "brightness(50%) contrast(100%)",
+                      width: window.innerWidth > 768 ? "430px" : "250px"
                     }}
                   />
                 </div>

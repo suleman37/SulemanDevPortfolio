@@ -6,7 +6,8 @@ import grill from "../assets/img/grill.jfif";
 import zohan from "../assets/img/zohan.jfif";
 import naveen from "../assets/img/e-comm.jfif";
 import portal from "../assets/img/portal.jfif";
-import logistics from "../assets/img/logistics.png"
+import logistics from "../assets/img/logistics.png";
+import tpe from "../assets/img/tpe.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -47,6 +48,10 @@ export const Projects = () => {
       title: "AQ Gimel",
       description: "Frontend Development",
       imgUrl: projImg1,
+    },{
+      title: "The PakEnterprises",
+      description: "Frontend Development",
+      imgUrl: tpe,
     }
   ];
 
