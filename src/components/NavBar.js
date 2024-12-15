@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import resume from "../assets/img/resume_master.pdf";
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -32,6 +33,15 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'resume_master.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -54,9 +64,7 @@ export const NavBar = () => {
                 <a target="_blank" href="https://github.com/suleman37" ><img src={navIcon2} alt="" /></a>
                 <a target="_blank" href="https://www.instagram.com/muhammadsuleman8230/"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              <button className="vvd" onClick={handleDownloadCV}><span>Download CV</span></button>
             </span>
           </Navbar.Collapse>
         </Container>
