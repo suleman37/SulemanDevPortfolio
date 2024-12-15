@@ -64,7 +64,7 @@ export const NavBar = () => {
                 <a target="_blank" href="https://github.com/suleman37" ><img src={navIcon2} alt="" /></a>
                 <a target="_blank" href="https://www.instagram.com/muhammadsuleman8230/"><img src={navIcon3} alt="" /></a>
               </div>
-              <button className="vvd" onClick={handleDownloadCV}><span>Download CV</span></button>
+              <button className="vvd" onClick={handleDownloadCV}><span>Download Resume</span></button>
             </span>
           </Navbar.Collapse>
         </Container>
