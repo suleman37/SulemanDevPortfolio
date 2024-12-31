@@ -8,6 +8,7 @@ import naveen from "../assets/img/e-comm.jfif";
 import portal from "../assets/img/portal.jfif";
 import logistics from "../assets/img/logistics.png";
 import tpe from "../assets/img/tpe.png";
+import autoroad from "../assets/img/auto.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -52,6 +53,11 @@ export const Projects = () => {
       title: "The PakEnterprises",
       description: "Frontend Development",
       imgUrl: tpe,
+    },
+    {
+      title: "AutoRoad",
+      description: "Frontend Development",
+      imgUrl: autoroad,
     }
   ];
 
