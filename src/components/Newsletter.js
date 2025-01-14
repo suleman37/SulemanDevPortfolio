@@ -12,15 +12,6 @@ export const Newsletter = ({ status, message, onValidated }) => {
     setEmail('');
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    email &&
-    email.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email
-    });
-  };
-
   return (
     <Container 
       fluid 
@@ -45,7 +36,10 @@ export const Newsletter = ({ status, message, onValidated }) => {
           {status === 'success' && <Alert variant="success">{message}</Alert>}
         </Col>
         <Col xs={12} md={10} lg={8}>
-          <form onSubmit={handleSubmit} className="newsletter-form">
+          <form onSubmit={(e) => {
+            e.preventDefault();
+            email && email.indexOf("@") > -1 && onValidated({ EMAIL: email });
+          }} className="newsletter-form">
             <div className="new-email-bx" style={{ display: 'flex', alignItems: 'center', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' ,border:"2px solid #4a2fbd"}}>
               <input 
                 value={email} 
