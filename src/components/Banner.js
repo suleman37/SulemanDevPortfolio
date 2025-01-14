@@ -89,7 +89,7 @@ export const Banner = () => {
                     style={{ textDecoration: "none" }}
                   >
                     <button>
-                      Let’s Connect <ArrowRightCircle size={25} />
+                    Let’s Build Together<ArrowRightCircle size={25} />
                     </button>
                   </a>
                 </div>
