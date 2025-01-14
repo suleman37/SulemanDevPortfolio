@@ -9,6 +9,7 @@ import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
+import LogoS from "../assets/img/logo.webp";
 
 export const NavBar = () => {
 
@@ -48,6 +49,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="/">
             <h1 style={{ color: 'white', fontWeight: 'bold' }}>Suleman Shakeel</h1>
+            {/* <img src={LogoS} alt="Logo" /> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
