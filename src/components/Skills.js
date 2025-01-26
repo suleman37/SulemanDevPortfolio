@@ -72,6 +72,10 @@ export const Skills = () => {
                   <h5>Next Js</h5>
                 </div>
                 <div className="item">
+                  <img src={meter2} alt="Next Js" />
+                  <h5>Vue Js</h5>
+                </div>
+                <div className="item">
                   <img src={meter1} alt="WordPress" />
                   <h5>WordPress</h5>
                 </div>

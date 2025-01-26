@@ -75,21 +75,21 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    As a Front-End Developer with over 2 years of experience, I
-                    specialize in building dynamic, user-friendly web
-                    applications using HTML5 ,CSS3 ,JavaScript, EcmaScript6
-                    ,Bootstrap 5 , React-Bootstrap,Tailwind CSS, Material UI,
-                    Next.jsand React.js . I focus on creating high-quality user
-                    experiences and staying ahead of industry trends. My
-                    proactive approach and attention to detail ensure
-                    exceptional results in every project.
+                    I am a Front-End Developer with over 1.5 year of experience.
+                    I build easy-to-use websites using HTML, CSS, JavaScript,
+                    Bootstrap, React, Tailwind CSS, Material UI, Next.js, and
+                    React-Bootstrap. I focus on making websites that are simple
+                    and enjoyable to use, and I keep up with the latest
+                    trends.Please feel free to reach out to schedule an
+                    interview. I look forward to connecting with you!
                   </p>
                   <a
                     href="https://www.upwork.com/freelancers/~01ccb38040d11360a6?mp_source=share"
                     style={{ textDecoration: "none" }}
                   >
                     <button>
-                    Let’s Build Together<ArrowRightCircle size={25} />
+                      Let’s Work Together
+                      <ArrowRightCircle size={25} />
                     </button>
                   </a>
                 </div>
@@ -101,7 +101,9 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "hero-img animate__animated animate__zoomIn" : ""
+                    isVisible
+                      ? "hero-img animate__animated animate__zoomIn"
+                      : ""
                   }
                 >
                   <img
@@ -112,7 +114,7 @@ export const Banner = () => {
                       borderRadius: "50%",
                       border: "10px solid #662c64",
                       filter: "brightness(50%) contrast(100%)",
-                      width: window.innerWidth > 768 ? "430px" : "250px"
+                      width: window.innerWidth > 768 ? "430px" : "250px",
                     }}
                   />
                 </div>
