@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import resume from "../assets/img/resume_master.pdf";
+import resume from "../assets/img/new_cv_master.pdf";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
@@ -31,7 +31,7 @@ export const NavBar = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "resume_master.pdf";
+    link.download = "CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

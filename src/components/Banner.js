@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Frontend Engineer"];
+  const toRotate = ["Full Stack Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -75,16 +75,15 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I am a Front-End Developer with over 1.5 year of experience.
-                    I build easy-to-use websites using HTML, CSS, JavaScript,
-                    Bootstrap, React, Tailwind CSS, Material UI, Next.js, and
-                    React-Bootstrap. I focus on making websites that are simple
-                    and enjoyable to use, and I keep up with the latest
-                    trends.Please feel free to reach out to schedule an
+                    I am a Full Stack Developer with 3+ years of experience.
+                    I create user-friendly websites and applications using HTML, CSS, JavaScript,
+                    and frameworks like React and Next.js. I also work with back-end technologies
+                    like Node.js, Express, and MongoDB. I enjoy making websites that are easy to use
+                    and keep up with the latest trends. Feel free to reach out to schedule an
                     interview. I look forward to connecting with you!
                   </p>
                   <a
-                    href="https://www.upwork.com/freelancers/~01ccb38040d11360a6?mp_source=share"
+                    href="https://www.upwork.com/freelancers/~017f069b7e6518ce94"
                     style={{ textDecoration: "none" }}
                   >
                     <button>

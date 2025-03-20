@@ -41,7 +41,7 @@ export const Skills = () => {
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="skill-slider" // Removed 'owl-carousel' and 'owl-theme'
+                className="skill-slider"
               >
                 <div className="item">
                   <img src={meter1} alt="HTML/CSS" />
@@ -72,12 +72,24 @@ export const Skills = () => {
                   <h5>Next Js</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Next Js" />
-                  <h5>Vue Js</h5>
-                </div>
-                <div className="item">
                   <img src={meter1} alt="WordPress" />
                   <h5>WordPress</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Node.js" />
+                  <h5>Node.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Express.js" />
+                  <h5>Express.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="MongoDB" />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="SQL" />
+                  <h5>SQL</h5>
                 </div>
               </Carousel>
             </div>

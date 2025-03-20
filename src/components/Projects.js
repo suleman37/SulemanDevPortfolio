@@ -1,56 +1,44 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/aq.jfif";
+import Forever from "../assets/img/17afb341-d628-4f75-8d17-dc749c75c93a.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import grill from "../assets/img/grill.jfif";
 import zohan from "../assets/img/zohan.jfif";
 import naveen from "../assets/img/e-comm.jfif";
-import portal from "../assets/img/portal.jfif";
-import logistics from "../assets/img/logistics.png";
-import autoroad from "../assets/img/auto.png";
+import easyshifa from "../assets/img/80486efa-cf44-41e2-88ae-114376a54e9c.jpeg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects1 = [
     {
-      title: "ClockInSight",
+      title: "EasyShifa",
       description: "Frontend Development",
-      imgUrl: portal,
+      imgUrl: easyshifa,
     },
     {
-      title: "LogiTrack",
-      description: "Frontend Development",
-      imgUrl: logistics,
-    },
-  ];
-  const projects2 = [
-    {
-      title: "GrilliHouse Provisions",
-      description: "Frontend Development",
-      imgUrl: grill,
-    },
-    {
-      title: "SEO Impact Agency",
+      title: "Digital Marketing",
       description: "Frontend Development",
       imgUrl: zohan,
-    },
-    {
-      title: "AutoRoad",
-      description: "Frontend Development",
-      imgUrl: autoroad,
-    },
-  ];
-  const projects3 = [
-    {
-      title: "AQ Gimel",
-      description: "Frontend Development",
-      imgUrl: projImg1,
     },
     {
       title: "Naveen Trends",
       description: "Frontend Development",
       imgUrl: naveen,
+    },
+  ];
+  const projects2 = [
+    {
+      title: "GrilliHouse Provisions",
+      description: "Backend Development",
+      imgUrl: grill,
+    },
+  ];
+  const projects3 = [
+    {
+      title: "Forever E-Commerce",
+      description: "FullStack Development",
+      imgUrl: Forever,
     },
   ];
 
@@ -66,17 +54,12 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
+                  <h2>My Projects</h2>
                   <p>
-                    Throughout my web development career, I have been fortunate
-                    to work on a number of exciting and challenging projects,
-                    including [E-Commerce Websites, Bussiness Websites and
-                    System Management Softwares etc ]. These projects have
-                    allowed me to demonstrate my expertise in development
-                    technologies and have given me the opportunity to take on
-                    various roles. I am proud of the results I have achieved on
-                    these projects and am always looking for new opportunities
-                    to apply my skills and experience to make a positive impact.
+                    I've worked on many projects like E-Commerce, Business, and
+                    Management Systems. These projects show my skills in web
+                    development. I'm always eager to use my skills in new
+                    projects.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -85,13 +68,22 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Software Dev</Nav.Link>
+                        <Nav.Link eventKey="first">
+                          <span className="d-none d-sm-inline">Frontend Development</span>
+                          <span className="d-inline d-sm-none">Frontend</span>
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Bussiness Dev</Nav.Link>
+                        <Nav.Link eventKey="second">
+                          <span className="d-none d-sm-inline">Backend Development</span>
+                          <span className="d-inline d-sm-none">Backend</span>
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">E-Commerce Web</Nav.Link>
+                        <Nav.Link eventKey="third">
+                          <span className="d-none d-sm-inline">FullStack Development</span>
+                          <span className="d-inline d-sm-none">FullStack</span>
+                        </Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
