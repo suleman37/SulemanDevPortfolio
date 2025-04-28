@@ -20,7 +20,7 @@ export const Footer = () => {
                 <a target="_blank" href="https://github.com/suleman37" ><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/muhammadsuleman8230/"><img src={navIcon3} alt="" /></a>
             </div>
-            <p>© 2024 Muhammad Suleman Shakeel</p>
+            <p>© 2025 Muhammad Suleman Shakeel</p>
           </Col>
         </Row>
       </Container>
