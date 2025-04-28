@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import resume from "../assets/img/new_cv_master.pdf";
+import resume from "../assets/img/resume.png";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
