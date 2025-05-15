@@ -31,7 +31,7 @@ export const NavBar = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "CV.pdf";
+    link.download = "suleman shakeel_resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
