@@ -83,7 +83,7 @@ export const Banner = () => {
                     interview. I look forward to connecting with you!
                   </p>
                   <a
-                    href="https://www.upwork.com/freelancers/~017f069b7e6518ce94"
+                    href="https://www.upwork.com/freelancers/~01ccb38040d11360a6"
                     style={{ textDecoration: "none" }}
                   >
                     <button>

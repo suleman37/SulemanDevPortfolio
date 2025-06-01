@@ -24,7 +24,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
         marginTop: '-50px',
         marginBottom: '50px',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-        border: '2px solid #4a2fbd' // Border added to the entire form
+        border: '2px solid #4a2fbd' 
       }}
     >
       <Row className="justify-content-center align-items-center newsletter-row">
