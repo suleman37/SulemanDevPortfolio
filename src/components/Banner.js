@@ -75,7 +75,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I am a Full Stack Developer with 2 years of experience.
+                    I am a Full Stack Developer with 1 year of experience.
                     I create user-friendly websites and applications using HTML, CSS, JavaScript,
                     and frameworks like React and Next.js. I also work with back-end technologies
                     like Node.js, Express, and MongoDB. I enjoy making websites that are easy to use
