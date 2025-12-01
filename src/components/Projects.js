@@ -12,7 +12,7 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects1 = [
     {
-      title: "EasyShifa",
+      title: "Easy Shifa",
       description: "Frontend Development",
       imgUrl: easyshifa,
     },
@@ -79,7 +79,12 @@ export const Projects = () => {
                           <span className="d-inline d-sm-none">Backend</span>
                         </Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      <Nav.Item>Subscribe to our Newsletter
+Stay updated with the latest news and offers
+
+￼￼Submit
+￼￼￼
+© 2025 Muhammad Suleman Shakeel
                         <Nav.Link eventKey="third">
                           <span className="d-none d-sm-inline">FullStack Development</span>
                           <span className="d-inline d-sm-none">FullStack</span>

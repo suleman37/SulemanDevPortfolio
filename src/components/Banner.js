@@ -80,7 +80,7 @@ export const Banner = () => {
                     and frameworks like React and Next.js. I also work with back-end technologies
                     like Node.js, Express, and MongoDB. I enjoy making websites that are easy to use
                     and keep up with the latest trends. Feel free to reach out to schedule an
-                    interview. I look forward to connecting with you!
+                    interview. I look forward to connecting with you!!!
                   </p>
                   <a
                     href="https://www.upwork.com/freelancers/~01ccb38040d11360a6"
